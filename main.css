@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#nav .container nav{
+    background-color:rgba(202, 202, 185, 0.63);
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+nav ul li{
+    display: inline;
+    margin-top: 20px;
+}
+
+h1 {
+    font-family: "Tapestry", serif;
+    font-weight: 500 bold;
+    font-size: 3em;
+    font-style:normal;
+    padding: 20px;
+}
+
+li a {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+h2 {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+p, :placeholder-shown, button{
+    font-family: "Shadows Into Light Two", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+}
+
+ul {
+    color: white;
+    padding: 10px;
+    margin: 30px;
+}
+
+section .container{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+img {
+    display: inline;
+    max-width: 700px;
+}
+
+.conteudo {
+    padding: 20px;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes a img{
+    width: 24px;
+}
+
+.redes {
+    text-decoration: none;
+}
+
+.redes h3{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.redes li {
+    display: block;
+    margin-right: 8px;
+    padding-left: 8px;
+}
+
+
+form input{
+    display: block;
+}
+
+.contato .comprar h3{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.comprar {
+    display: inline;
+}
+
+#formas .container {
+    display: block;
+    margin: 40px;
+}
+
+.local {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.local h3 {
+    padding-bottom: 20px;
+}
+
+form input ,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button {
+    background-color: rgb(147, 147, 224);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgba(202, 202, 185, 0.63);;
+}
+
+form button:hover {
+    background-color: rgb(190, 190, 209);
+}
+
+input:focus, textarea:focus {
+    border-color: rgb(211, 211, 218);
+}
